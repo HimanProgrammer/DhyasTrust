@@ -2,7 +2,7 @@
   "en": {
     "slides": [
       {
-        "image": "/images/slider/slide1.jpg",
+        "image": "/public/images/slider/slide-1.jpg",
         "alt": "Happy kids",
         "tagline": "We are always open for children",
         "title": "Building a Brighter",
@@ -14,7 +14,7 @@
         }
       },
       {
-        "image": "/images/slider/slide2.jpg",
+        "image": "/public/images/slider/slide2.jpg",
         "alt": "Empowering Communities",
         "tagline": "Empowering Communities",
         "title": "Together We Can",

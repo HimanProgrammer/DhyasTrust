@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import heroData from '../../data/hero3Content.json';
+import heroData from '../../data/hero3Content.json'; 
+
+
 
 const HeroSlider = () => {
   const [lang, setLang] = useState('en');

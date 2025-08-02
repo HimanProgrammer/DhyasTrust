@@ -696,7 +696,7 @@
     }
 
     .all-Service-btn {
-        text-align: end;
+        text-align: flex-end;
 
         @media (max-width:991px) {
             text-align: start;
@@ -2493,7 +2493,7 @@
     }
 
     .all-btn {
-        text-align: end;
+        text-align: flex-end;
 
         @media (max-width:991px) {
             text-align: left;
@@ -2886,7 +2886,7 @@
         }
 
         .all-btn {
-            text-align: end;
+            text-align: flex-end;
 
             @media (max-width:991px) {
                 text-align: left;

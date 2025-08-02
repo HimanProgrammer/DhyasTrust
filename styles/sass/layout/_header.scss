@@ -65,7 +65,7 @@
 	.contact-into {
 		display: flex;
 		align-items: center;
-		justify-content: end;
+		justify-content: flex-end;
 
 		@media (max-width:991px) {
 			justify-content: center;
@@ -278,7 +278,7 @@
 	ul {
 		display: flex;
 		align-items: center;
-		justify-content: end;
+		justify-content: flex-end;
 
 		@media (max-width:991px) {
 			justify-content: center;
@@ -627,7 +627,7 @@
 
 .wpo-site-header .header-right {
 	display: flex;
-	justify-content: flex-end;
+	justify-content: flex-flex-end;
 	z-index: 991;
 	position: relative;
 	align-items: center;

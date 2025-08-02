@@ -422,7 +422,7 @@
     }
 
     .service-btn {
-        text-align: end;
+        text-align: flex-end;
 
         @media (max-width:991px) {
             text-align: left;
@@ -983,7 +983,7 @@
     .video {
         display: flex;
         align-items: center;
-        justify-content: end;
+        justify-content: flex-end;
         width: 100%;
         height: 100%;
 
@@ -1472,7 +1472,7 @@
             right: 0;
             bottom: 20px;
             width: 300px;
-            text-align: end;
+            text-align: flex-end;
 
             @media (max-width:767px) {
                 bottom: -50px;
