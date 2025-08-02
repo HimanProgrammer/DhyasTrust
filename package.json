@@ -3,9 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+  "dev": "next dev",
+  "build": "next build",
+  "export": "next export",
+  "start": "next start"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
