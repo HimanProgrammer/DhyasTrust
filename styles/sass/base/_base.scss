@@ -211,14 +211,10 @@ img{
     font-size: 18px;
     font-size: calc-rem-value(18);
     color: #fff;
-    position: absolute;
     left: 50%;
     top: 50%;
     @include center-by-translating();
 }
-
-
-/** for popup image ***/
 .mfp-wrap {
     background-color: transparentize(#000, 0.1);
     z-index: 99999;
