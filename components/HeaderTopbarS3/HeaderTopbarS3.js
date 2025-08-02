@@ -9,7 +9,7 @@ const ClickHandler = () => {
 
 const HeaderTopbarS3 = () => {
     return (
-        <div className="topbar">
+        <div className="topbar fixed-top">
             <div className="container-fluid">
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-12">

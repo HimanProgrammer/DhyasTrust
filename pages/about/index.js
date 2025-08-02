@@ -26,11 +26,11 @@ const AboutPage = () => {
             {/* <ServiceSection4 hclass={"service-section-s5 section-padding"} /> */}
             <CtaSection hclass={'cta-section'} />
             {/* <DonateSection /> */}
-            <TeamSection hclass={'volunteer-section section-padding'} />
+            {/* <TeamSection hclass={'volunteer-section section-padding'} /> */}
             {/* <ProjectSectionS2 hclass={'project-section-s2 section-padding'} /> */}
-            <Testimonial2 tClass={'testimonial-section-s2 section-padding'} />
+            <Testimonial2 tClass={'testimonial-section-s2 section-padding pt-50'} />
             {/* <PartnerSectionS3 /> */}
-            <BlogSection tClass={'blog-section-s4 section-padding'} />
+            {/* <BlogSection tClass={'blog-section-s4 section-padding'} /> */}
             <Footer />
             <Scrollbar />
 
