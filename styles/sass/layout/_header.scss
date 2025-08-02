@@ -65,7 +65,7 @@
 	.contact-into {
 		display: flex;
 		align-items: center;
-		justify-content: flex-end;
+		justify-content: end;
 
 		@media (max-width:991px) {
 			justify-content: center;
@@ -278,7 +278,7 @@
 	ul {
 		display: flex;
 		align-items: center;
-		justify-content: flex-end;
+		justify-content: end;
 
 		@media (max-width:991px) {
 			justify-content: center;
@@ -627,7 +627,7 @@
 
 .wpo-site-header .header-right {
 	display: flex;
-	justify-content: flex-flex-end;
+	justify-content: flex-end;
 	z-index: 991;
 	position: relative;
 	align-items: center;
@@ -798,15 +798,15 @@
 		@include transition-time(0.5s);
 		box-shadow: -2px 18px 40px -9px rgba(153, 153, 153, 1);
 
-		@include mix-media-query(991px) {
+		@include media-query(991px) {
 			top: 65px;
 		}
 
-		@include mix-media-query(767px) {
+		@include media-query(767px) {
 			right: 15px;
 		}
 
-		@include mix-media-query(575px) {
+		@include media-query(575px) {
 			width: 260px;
 			padding: 15px;
 		}
@@ -1161,7 +1161,7 @@
 			position: relative;
 		}
 
-		@include mix-media-query(991px) {}
+		@include media-query(991px) {}
 	}
 
 	#navbar {
@@ -1274,7 +1274,7 @@
 			}
 		}
 
-		@include mix-media-query(991px) {
+		@include media-query(991px) {
 
 			>ul>li a {
 				display: block;
@@ -1356,7 +1356,7 @@
 	}
 
 	/* style for navigation less than 992px */
-	@include mix-media-query (991px) {
+	@include media-query (991px) {
 		.container {
 			width: 100%;
 		}
@@ -1503,7 +1503,7 @@
 		}
 	}
 
-	@include mix-media-query(767px) {
+	@include media-query(767px) {
 		.navbar-header .navbar-brand {
 			font-size: 24px;
 		}
@@ -1523,7 +1523,7 @@
 
 
 	/*navbar collaps less then 992px*/
-	@include mix-media-query (991px) {
+	@include media-query (991px) {
 		.navbar-collapse.collapse {
 			display: none;
 		}
@@ -1917,25 +1917,18 @@
 
 	.wpo-site-header {
 		padding: 0 255px;
-		margin-top: 56px!important;
-		@include transition-time(0.5s);
 		background: $white;
 
 		@media (max-width:1799px) {
 			padding: 0 200px;
-		margin-top: 56px!important;
-
 		}
 
 		@media (max-width:1700px) {
-			padding: 0 100px; 
-			margin-top: 56px!important;
+			padding: 0 100px;
 		}
 
 		@media (max-width:1500px) {
 			padding: 0 10px;
-			margin-top: 56px!important;
-
 		}
 
 		.sticky-header.sticky-on {

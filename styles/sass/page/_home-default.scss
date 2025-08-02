@@ -1343,20 +1343,6 @@
     background: url(/images/cta-bg.jpg) center / cover no-repeat;
     z-index: 1;
 
-    .overlay {
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.5); // Adjust opacity/color as needed
-    z-index: 0;
-    }
-
-    .container,
-    .content {
-        position: relative;
-        padding-top: 150px !important;
-        z-index: 1;
-    }
-
     @media (max-width:991px) {
         padding: 120px 0 120px;
         overflow: hidden;

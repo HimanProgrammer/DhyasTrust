@@ -47,16 +47,16 @@
     .product-details {
         padding: 15px 30px 80px;
 
-        @include mix-media-query(1199px) {
+        @include media-query(1199px) {
             padding: 10px 30px 15px;
         }
 
-        @include mix-media-query(991px) {
+        @include media-query(991px) {
             margin-top: 45px;
             padding: 40px 30px;
         }
 
-        @include mix-media-query(767px) {
+        @include media-query(767px) {
             padding: 0;
         }
 
@@ -68,7 +68,7 @@
             font-weight: 700;
             text-transform: capitalize;
 
-            @include mix-media-query(767px) {
+            @include media-query(767px) {
                 font-size: 22px;
                 font-size: calc-rem-value(22);
             }
@@ -82,12 +82,12 @@
             font-weight: 700;
 
 
-            @include mix-media-query(991px) {
+            @include media-query(991px) {
                 font-size: 30px;
                 font-size: calc-rem-value(30);
             }
 
-            @include mix-media-query(767px) {
+            @include media-query(767px) {
                 font-size: 25px;
                 font-size: calc-rem-value(25);
             }
@@ -102,12 +102,12 @@
                 margin-left: 5px;
                 font-weight: 500;
 
-                @include mix-media-query(991px) {
+                @include media-query(991px) {
                     font-size: 20px;
                     font-size: calc-rem-value(20);
                 }
 
-                @include mix-media-query(767px) {
+                @include media-query(767px) {
                     font-size: 18px;
                     font-size: calc-rem-value(18);
                 }
@@ -226,7 +226,7 @@
                 border-color: $theme-primary-color;
             }
 
-            @include mix-media-query(767px) {
+            @include media-query(767px) {
                 font-size: 14px;
                 font-size: calc-rem-value(14);
             }
@@ -305,7 +305,7 @@
             font-family: $heading-font;
             border: 0;
 
-            @include mix-media-query(767px) {
+            @include media-query(767px) {
                 margin-bottom: 20px;
             }
         }
@@ -331,7 +331,7 @@
             font-family: $base-font;
             position: relative;
 
-            @include mix-media-query(767px) {
+            @include media-query(767px) {
                 font-size: 14px;
                 font-size: calc-rem-value(14);
                 font-weight: normal;
@@ -371,7 +371,7 @@
             padding-top: 30px;
             margin-top: -1px;
 
-            @include mix-media-query(767px) {
+            @include media-query(767px) {
                 border: 0;
                 padding: 0;
                 margin: 0;
@@ -395,7 +395,7 @@
                     border-radius: 50%;
                 }
 
-                @include mix-media-query(767px) {
+                @include media-query(767px) {
                     width: 100%;
                     float: none;
                     margin-bottom: 10px;
@@ -406,7 +406,7 @@
                 width: calc(100% - 130px);
                 float: right;
 
-                @include mix-media-query(767px) {
+                @include media-query(767px) {
                     width: 100%;
                     float: none;
                 }
@@ -423,7 +423,7 @@
 
             .name-rating-time {
 
-                @include mix-media-query(767px) {
+                @include media-query(767px) {
                     padding-bottom: 3px;
                 }
             }
@@ -434,7 +434,7 @@
                 font-size: 14px;
                 font-size: calc-rem-value(14);
 
-                @include mix-media-query(767px) {
+                @include media-query(767px) {
                     font-size: 12px;
                     font-size: calc-rem-value(12);
                     display: block;
@@ -450,7 +450,7 @@
 
                 }
 
-                @include mix-media-query(767px) {
+                @include media-query(767px) {
                     padding-left: 0;
                     margin: 4px 0 7px;
                 }
@@ -461,7 +461,7 @@
                 color: lighten($black, 70%);
                 text-transform: uppercase;
 
-                @include mix-media-query(767px) {
+                @include media-query(767px) {
                     float: none;
                 }
             }

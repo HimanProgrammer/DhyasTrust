@@ -8,12 +8,12 @@
         margin-top: 70px;
         padding: 0 200px;
 
-        @include mix-media-query(991px) {
+        @include media-query(991px) {
             margin-top: 50px;
             padding: 0 100px;
         }
 
-        @include mix-media-query(767px) {
+        @include media-query(767px) {
             padding: 0;
         }
 

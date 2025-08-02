@@ -78,10 +78,10 @@
     }
 }
 
-@mixin media-query($max-width) {
-  @media (max-width: #{$max-width}px) {
-    @content;
-  }
+@mixin media-query( $length ) {
+    @media (max-width: $length) {
+        @content;
+    }
 }
 
 @mixin placeholder-style( $color, $font-size:14px, $font-style: italic ) {

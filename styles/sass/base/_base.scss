@@ -1,25 +1,25 @@
-/* 1.1	Theme Reset Style */
+
 html {
-font-size: 1rem; 
+   font-size: #{var.$base-font-size}px;
 }
 :root {
     scroll-behavior: unset;
 }
 body {
-    font-family: "Inter", sans-serif;
-    color:#687693;
-    background-color: #F5f5f5;
+    font-family: var.$base-font;
+    color:var.$body-color;
+    background-color: var.$body-bg-color;
     font-size: 15px;
     font-size: calc-rem-value(15);
     overflow-x: hidden;
-    @include mix.media-query( 767px ) {
+    @include media-query( 767px ) {
         font-size: 14px;
     }
 }
 
 p {
     font-size: 16px;
-    color: $body-color;
+    color: var.$body-color;
     line-height: 1.8em;
 }
 
@@ -29,8 +29,8 @@ h3,
 h4,
 h5,
 h6 {
-    color: $heading-color;
-    font-family: $heading-font;
+    color: var.$heading-color;
+    font-family: var.$heading-font;
     font-weight: 600;
 }
 
@@ -80,10 +80,10 @@ img{
 .section-padding {
     padding: 120px 0;
 
-    @include mix-media-query( 991px ) {
+    @include media-query( 991px ) {
         padding: 90px 0;
     }
-    @include mix-media-query( 767px ) {
+    @include media-query( 767px ) {
         padding: 80px 0;
     }
 }
@@ -113,7 +113,7 @@ img{
         i {
             font-size: 30px;
             font-size: calc-rem-value(30);
-            color: $theme-primary-color;
+            color: var.$theme-primary-color;
             display: inline-block;
             -webkit-animation: rotating linear 2s infinite;
             animation: rotating linear 2s infinite;
@@ -125,13 +125,13 @@ img{
     #c-error,
     #error {
         width: 100%;
-        color: $white;
+        color: var.$white;
         padding: 5px 10px;
         font-size: 16px;
         text-align: center;
         display: none;
 
-        @include mix-media-query(767px)  {
+        @include media-query(767px)  {
             font-size: 15px;
         }
     }
@@ -182,11 +182,11 @@ img{
 
 /*** back to top **/
 .back-to-top {
-    background-color: transparentize($theme-primary-color, 0.3);
+    background-color: transparentize(var.$theme-primary-color, 0.3);
     width: 45px;
     height: 45px;
     line-height: 45px;
-    border: 2px solid $theme-primary-color;
+    border: 2px solid var.$theme-primary-color;
     border-radius: 45px;
     text-align: center;
     display: none;
@@ -196,14 +196,14 @@ img{
     bottom: 15px;
     @include transition-time(0.2s);
 
-    @include mix-media-query(991px) {
+    @include media-query(991px) {
         width: 35px;
         height: 35px;
         line-height: 35px;
     }
 
     &:hover {
-        background-color: $theme-primary-color;
+        background-color: var.$theme-primary-color;
     }
 }
 
@@ -211,12 +211,16 @@ img{
     font-size: 18px;
     font-size: calc-rem-value(18);
     color: #fff;
+    position: absolute;
     left: 50%;
     top: 50%;
     @include center-by-translating();
 }
+
+
+/** for popup image ***/
 .mfp-wrap {
-    background-color: transparentize(#000, 0.1);
+    background-color: transparentize(var.$black, 0.1);
     z-index: 99999;
 }
 

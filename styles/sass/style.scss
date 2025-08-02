@@ -105,13 +105,12 @@ Version:        1.0.0
 ----------------------------------------------------------------*/
 
 // helpers
-@use "../sass/helpers/variables" as *;
-
-@use "../sass/helpers/functions";
-@use "../sass/helpers/mixins" as mix;
+@use './helpers/variables' as var;
+@use './helpers/mixins' as mix;
+@use './base/base';
 
 // base
-@use "base/base";
+@use './base/base';
 
 
 // components
