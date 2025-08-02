@@ -105,10 +105,10 @@ Version:        1.0.0
 ----------------------------------------------------------------*/
 
 // helpers
-@use "helpers/variables" as *;
+@use "../sass/helpers/variables" as *;
 
-@use "helpers/functions";
-@use "helpers/mixins";
+@use "../sass/helpers/functions";
+@use "../sass/helpers/mixins" as *;
 
 // base
 @use "base/base";
@@ -123,7 +123,7 @@ Version:        1.0.0
 @use "components/preloader";
 @use "components/blog-sidebar";
 @use "components/pagination";
-@use "components/services-sidber";
+@use "components/services-sidebar";
 
 // layout
 @use "layout/header";

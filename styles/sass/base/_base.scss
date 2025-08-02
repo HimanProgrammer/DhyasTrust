@@ -1,14 +1,14 @@
 /* 1.1	Theme Reset Style */
 html {
-    font-size: $base-font-size + px;
+font-size: 1rem; 
 }
 :root {
     scroll-behavior: unset;
 }
 body {
-    font-family: $base-font;
-    color:$body-color;
-    background-color: $body-bg-color;
+    font-family: "Inter", sans-serif;
+    color:#687693;
+    background-color: #F5f5f5;
     font-size: 15px;
     font-size: calc-rem-value(15);
     overflow-x: hidden;
