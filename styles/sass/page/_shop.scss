@@ -5,7 +5,7 @@
 	.shop-grids {
 		margin: 0 -15px;
 
-		@include media-query(767px) {
+		@include mix-media-query(767px) {
 			margin: 0 -7px;
 		}
 	}
@@ -15,16 +15,16 @@
 		float: left;
 		margin: 0 15px 30px;
 
-		@include media-query(991px) {
+		@include mix-media-query(991px) {
 			width: calc(50% - 30px);
 		}
 
-		@include media-query(767px) {
+		@include mix-media-query(767px) {
 			width: calc(50% - 15px);
 			margin: 0 7px 15px;
 		}
 
-		@include media-query(550px) {
+		@include mix-media-query(550px) {
 			width: calc(100% - 15px);
 			float: none;
 		}
@@ -45,7 +45,7 @@
 			margin: 0 0 0.5em;
 			font-weight: 700;
 
-			@include media-query(991px) {
+			@include mix-media-query(991px) {
 				font-size: 16px;
 				font-size: calc-rem-value(16);
 			}
@@ -86,7 +86,7 @@
 			border-radius: 50px;
 			background: transparent;
 
-			@include media-query(767px) {
+			@include mix-media-query(767px) {
 				font-size: 12px;
 				font-size: calc-rem-value(12);
 				padding: 8px 18px;

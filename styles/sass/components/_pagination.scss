@@ -3,7 +3,7 @@
 	text-align: center;
 	margin-top: 60px;
 
-	@include media-query(991px) {
+	@include mix-media-query(991px) {
 		text-align: left;
 		margin-top: 40px;
 	}
@@ -18,7 +18,7 @@
 			float: left;
 			margin-right: 10px;
 
-			@include media-query(767px) {
+			@include mix-media-query(767px) {
 				margin-right: 5px;
 			}
 		}
@@ -39,7 +39,7 @@
 			background: #ebf4fc;
 			display: block;
 
-			@include media-query(991px) {
+			@include mix-media-query(991px) {
 				width: 40px;
 				height: 40px;
 				line-height: 40px;
@@ -72,7 +72,7 @@
 		padding-right: 50px;
 	}
 
-	@include media-query(991px) {
+	@include mix-media-query(991px) {
 		margin-top: 45px;
 		text-align: left;
 	}

@@ -1,7 +1,7 @@
 .section-title {
 	margin-bottom: 40px;
 
-	@include media-query(767px) {
+	@include mix-media-query(767px) {
 		margin-bottom: 30px;
 	}
 
@@ -25,12 +25,12 @@
 		text-transform: capitalize;
 
 
-		@include media-query(767px) {
+		@include mix-media-query(767px) {
 			font-size: 32px;
 			line-height: 40px;
 		}
 
-		@include media-query(330px) {
+		@include mix-media-query(330px) {
 			font-size: 30px;
 		}
 
@@ -46,12 +46,12 @@
 			margin-bottom: 0;
 			display: inline-block;
 
-			@include media-query(767px) {
+			@include mix-media-query(767px) {
 				font-size: 32px;
 				line-height: 40px;
 			}
 
-			@include media-query(330px) {
+			@include mix-media-query(330px) {
 				font-size: 30px;
 			}
 		}

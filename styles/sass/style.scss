@@ -108,7 +108,7 @@ Version:        1.0.0
 @use "../sass/helpers/variables" as *;
 
 @use "../sass/helpers/functions";
-@use "../sass/helpers/mixins" as *;
+@use "../sass/helpers/mixins" as mix;
 
 // base
 @use "base/base";

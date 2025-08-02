@@ -7,11 +7,11 @@
 		.post {
 			margin-bottom: 70px;
 
-			@include media-query(991px) {
+			@include mix-media-query(991px) {
 				margin-bottom: 50px;
 			}
 
-			@include media-query(767px) {
+			@include mix-media-query(767px) {
 				margin-bottom: 40px;
 			}
 		}
@@ -22,7 +22,7 @@
 		overflow: hidden;
 		margin: 35px 0;
 
-		@include media-query(767px) {
+		@include mix-media-query(767px) {
 			margin: 25px 0;
 		}
 
@@ -73,22 +73,22 @@
 						width: 9px;
 						height: 1px;
 
-						@include media-query(440px) {
+						@include mix-media-query(440px) {
 							display: none;
 						}
 					}
 
-					@include media-query(440px) {
+					@include mix-media-query(440px) {
 						margin-left: 0;
 						padding-left: 0;
 					}
 				}
 
-				@include media-query(767px) {
+				@include mix-media-query(767px) {
 					font-size: 12px;
 				}
 
-				@include media-query(440px) {
+				@include mix-media-query(440px) {
 					float: none;
 					display: block;
 					margin-bottom: 5px;
@@ -107,11 +107,11 @@
 			margin: -0.27em 0 0.7em;
 			font-family: $heading-font;
 
-			@include media-query(991px) {
+			@include mix-media-query(991px) {
 				font-size: 25px;
 			}
 
-			@include media-query(767px) {
+			@include mix-media-query(767px) {
 				font-size: 22px;
 			}
 		}
@@ -128,7 +128,7 @@
 			margin-bottom: 2em;
 			color: #5E5F63;
 
-			@include media-query(991px) {
+			@include mix-media-query(991px) {
 				font-size: 16px;
 			}
 		}

@@ -14,15 +14,15 @@
 	z-index: 1;
 	margin-top: -40px;
 
-	@include media-query(1399px) {
+	@include mix-media-query(1399px) {
 		height: 700px;
 	}
 
-	@include media-query(991px) {
+	@include mix-media-query(991px) {
 		margin-top: 0px;
 	}
 
-	@include media-query(767px) {
+	@include mix-media-query(767px) {
 		height: 100%;
 	}
 
@@ -99,7 +99,7 @@
 			background: $theme-primary-color;
 		}
 
-		@include media-query(767px) {
+		@include mix-media-query(767px) {
 			display: none;
 		}
 	}
@@ -135,7 +135,7 @@
 
 	.swiper-button-prev,
 	.swiper-button-next {
-		@include media-query(991px) {
+		@include mix-media-query(991px) {
 			display: none;
 		}
 	}
@@ -187,15 +187,15 @@
 .wpo-hero-slider-s2 {
 
 
-	@include media-query(1199px) {
+	@include mix-media-query(1199px) {
 		height: 680px;
 	}
 
-	@include media-query(991px) {
+	@include mix-media-query(991px) {
 		height: 600px;
 	}
 
-	@include media-query(767px) {
+	@include mix-media-query(767px) {
 		height: 700px;
 	}
 
@@ -225,7 +225,7 @@
 	.slide-title {
 		max-width: 712px;
 
-		@include media-query(1199px) {
+		@include mix-media-query(1199px) {
 			max-width: 555px;
 		}
 
