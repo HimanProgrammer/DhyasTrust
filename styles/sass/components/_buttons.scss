@@ -90,7 +90,7 @@
 	&:hover,
 	&:focus,
 	&:active {
-		background: darken($theme-primary-color, 5%);
+		background: color.adjust($theme-primary-color, $lightness: -5%);
 		// @include linear-gradient-bg(left, #00ded8, #00a7d5);
 		color: $white;
 	}

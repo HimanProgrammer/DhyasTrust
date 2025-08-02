@@ -105,56 +105,57 @@ Version:        1.0.0
 ----------------------------------------------------------------*/
 
 // helpers
-@import "helpers/variables";
-@import "helpers/functions";
-@import "helpers/mixins";
+@use "helpers/variables" as *;
+
+@use "helpers/functions";
+@use "helpers/mixins";
 
 // base
-@import "base/base";
+@use "base/base";
 
 
 // components
-@import "components/section-title";
-@import "components/buttons";
-@import "components/form";
-@import "components/social-links";
-@import "components/page-title";
-@import "components/preloader";
-@import "components/blog-sidebar";
-@import "components/pagination";
-@import "components/services-sidber";
+@use "components/section-title";
+@use "components/buttons";
+@use "components/form";
+@use "components/social-links";
+@use "components/page-title";
+@use "components/preloader";
+@use "components/blog-sidebar";
+@use "components/pagination";
+@use "components/services-sidber";
 
 // layout
-@import "layout/header";
-@import "layout/hero-slider";
-@import "layout/footer";
+@use "layout/header";
+@use "layout/hero-slider";
+@use "layout/footer";
 
 // components
-@import "components/sticky-header";
+@use "components/sticky-header";
 
 
 // page
-@import "page/home-default";
-@import "page/home-style2";
-@import "page/home-style3";
-@import "page/service-single";
-@import "page/project-single";
-@import "page/shop";
-@import "page/shop-single";
-@import "page/cart";
-@import "page/checkout";
-@import "page/volunteer";
-@import "page/volunteer-single";
-@import "page/donate";
-@import "page/event-single";
-@import "page/cause-single";
+@use "page/home-default";
+@use "page/home-style2";
+@use "page/home-style3";
+@use "page/service-single";
+@use "page/project-single";
+@use "page/shop";
+@use "page/shop-single";
+@use "page/cart";
+@use "page/checkout";
+@use "page/volunteer";
+@use "page/volunteer-single";
+@use "page/donate";
+@use "page/event-single";
+@use "page/cause-single";
 
 
-@import "page/_blog";
-@import "page/_blog-single";
+@use "page/_blog";
+@use "page/_blog-single";
 
-@import "page/_contact";
-@import "page/_error-404";
+@use "page/_contact";
+@use "page/_error-404";
 
 
 
